@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ansiya A</h1>
+        <p>Web Developer - HTML & CSS Specialist</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">ansiyajafar123</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer focusing on creating responsive and modern websites using HTML and CSS.
+                With a keen eye for design and usability, I help businesses bring their online vision to life.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Responsive Design</li>
+                <li>Flexbox & Grid</li>
+                <li>Website Optimization</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="Ansiya A">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="ansiyajafar123@gmail.com" id=":ansiyajafar123@gmail.comemail" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Ansiya A. All rights reserved.
+    </footer>
+</body>
+</html>
